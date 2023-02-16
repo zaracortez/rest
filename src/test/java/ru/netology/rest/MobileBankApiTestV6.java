@@ -18,17 +18,17 @@ class MobileBankApiTestV6 {
             .log(LogDetail.ALL)
             .build();
 
-@Test
-void shouldReturnDemoAccounts() {
-    // Given - When - Then
-    // Предусловия
-    given()
-            .spec(requestSpec) // со спецификацией проще (особенно когда много тестов)
-            // Выполняемые действия
-            .when()
-            .get("/demo/accounts")
-            // Проверки
-            .then()
-            .statusCode(200);
-}
+    @Test
+    void shouldReturnDemoAccounts() {
+        // Given - When - Then
+        // Предусловия
+        given()
+                .spec(requestSpec) // со спецификацией проще (особенно когда много тестов)
+                // Выполняемые действия
+                .when()
+                .get("/demo/accounts")
+                // Проверки
+                .then()
+                .statusCode(200);
+    }
 }
