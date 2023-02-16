@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f9b9553-7d86-4235-abc7-07999bc8475d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/accounts.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/accounts.schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Ln1aXwCk9B7gSV1KFdo1LID6oW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,20 +66,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Homework/rest"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Homework/rest&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Homework\rest" />
       <recent name="C:\Homework\rest\artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MobileBankApiTestV6">
+  <component name="RunManager" selected="Gradle.MobileBankApiTestV3.shouldReturnDemoAccounts">
     <configuration name="MobileBankApiTestV1.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,6 +126,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MobileBankApiTestV3.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.rest.MobileBankApiTestV3.shouldReturnDemoAccounts&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MobileBankApiTestV6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,9 +174,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MobileBankApiTestV6" />
+        <item itemvalue="Gradle.MobileBankApiTestV3.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV2.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
+        <item itemvalue="Gradle.MobileBankApiTestV6" />
       </list>
     </recent_temporary>
   </component>
