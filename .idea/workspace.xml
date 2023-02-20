@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f9b9553-7d86-4235-abc7-07999bc8475d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/accounts.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/accounts.schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/rest/MobileBankApiTestV3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Homework/rest&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Homework/deliverycard2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Homework\rest" />
       <recent name="C:\Homework\rest\artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MobileBankApiTestV3.shouldReturnDemoAccounts">
+  <component name="RunManager" selected="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts">
     <configuration name="MobileBankApiTestV1.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MobileBankApiTestV3.shouldReturnDemoAccounts" />
-        <item itemvalue="Gradle.MobileBankApiTestV2.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
+        <item itemvalue="Gradle.MobileBankApiTestV2.shouldReturnDemoAccounts" />
+        <item itemvalue="Gradle.MobileBankApiTestV3.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV6" />
       </list>
     </recent_temporary>
